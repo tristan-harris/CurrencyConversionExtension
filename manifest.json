@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "Currency Conversion Extension",
+    "description": "A useful tool for converting between different currencies in the browser.",
+    "version": "1.00",
+    "icons": {
+        "16":   "/res/images/icon_16.png",
+        "32":   "/res/images/icon_32.png",
+        "48":   "/res/images/icon_48.png",
+        "128":  "/res/images/icon_128.png"
+    },
+    "options_ui": {
+        "open_in_tab": true,
+        "page": "options/options.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "/content/main.js"
+            ],
+            "css": [
+                "/res/style.css"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}

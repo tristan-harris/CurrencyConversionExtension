@@ -1,0 +1,14 @@
+.currency-converter-popup-div {
+    width:250px; 
+    height:180px;
+    background-color:#FFFFFF;
+    border:1px #000000 solid;
+    float: right;
+    position: fixed;
+    z-index: 99999;
+    border-radius: 10px;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
+    padding: 24px;
+    top: calc(70%);
+    right: calc(1%);
+}
