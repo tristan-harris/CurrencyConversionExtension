@@ -4,4 +4,4 @@ Adds a floating window specified pages to easily convert between currencies. Use
 
 ---
 
-Credits icon from ([game-icons.net](https://game-icons.net/))
+Credits icon from [game-icons.net](https://game-icons.net/)
