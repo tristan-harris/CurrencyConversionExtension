@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- the popup in manifest.json references what is called the extension 'window' here, not to be confused with the in-page currency popup -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Conversion Extension</title>
+    <link rel="stylesheet" href="/window/windowStyle.css">
+</head>
+<body>
+    <div id="cce-overall-window">
+        <label>Show currency conversion popup for this site?</label>
+        <small id="cce-current-website"></small>
+        <div id="cce-buttons-div">
+            <button type="button" id="cce-hide-button" disabled>Hide</button>
+            <button type="button" id="cce-show-button" disabled>Show</button>
+        </div>
+    </div>
+    <script src="/window/window.js"></script>
+</body>
+</html>

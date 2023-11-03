@@ -9,14 +9,10 @@
         "48":   "/res/images/icon_48.png",
         "128":  "/res/images/icon_128.png"
     },
-    "options_ui": {
-        "open_in_tab": true,
-        "page": "options/options.html"
-    },
     "content_scripts": [
         {
             "matches": [
-                "<all_urls>"
+                "https://*/*"
             ],
             "js": [
                 "/content/main.js"
@@ -27,7 +23,23 @@
             "run_at": "document_end"
         }
     ],
+    "web_accessible_resources": [
+        {
+            "matches": [
+                "https://*/*"
+            ],
+            "resources": [
+                "/res/fonts/*",
+                "/res/popup.html",
+                "res/images/horizontal-flip.png"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "/window/window.html"
+    },
     "permissions": [
-        "storage"
+        "storage",
+        "tabs"
     ]
 }

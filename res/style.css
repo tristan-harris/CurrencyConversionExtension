@@ -1,6 +1,12 @@
-.currency-converter-popup-div {
-    width:250px; 
-    height:180px;
+/* resets css to default state (ignoring specific page css) */
+div.cce-popup-div * {
+    all: initial !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+div.cce-popup-div {
+    width:500px; 
+    height:120px;
     background-color:#FFFFFF;
     border:1px #000000 solid;
     float: right;
@@ -9,6 +15,30 @@
     border-radius: 10px;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
     padding: 24px;
-    top: calc(70%);
+    top: calc(80%);
     right: calc(1%);
+    text-align: center !important;
+}
+
+img#cce-swap-currencies-arrow {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+div.cce-popup-div > div {
+    display: inline-block !important;
+    border: 1px solid red !important;
+}
+
+div.cce-popup-div > p {
+    color: black !important;
+    font-size: 12px !important;
+}
+
+div.cce-popup-div input, div.cce-popup-div select {
+    background-color: lightgray !important;
+    border-style: solid !important;
+    border-color: #000000 !important;
+    border-width: 2px !important;
+    margin: 5px !important;
 }
