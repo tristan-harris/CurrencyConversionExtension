@@ -9,7 +9,7 @@ Adds a floating window to user-specified pages for the purpose of easily convert
 ### Installation
 
 1. Download repository
-2. Go to [chrome://extensions](chrome://extensions)
+2. Go to [chrome://extensions](chrome://extensions) or select 'Manage extensions' from the extensions menu.
 3. Select 'Developer mode' (found at the top right)
 4. Select 'Load unpacked' and choose the folder that contains the downloaded repository.
 
