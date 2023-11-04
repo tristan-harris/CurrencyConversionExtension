@@ -2,7 +2,7 @@
 
 ### Description
 
-Adds a floating window specified pages to easily convert between currencies. Uses [freecurrencyapi.com](https://freecurrencyapi.com/) for data.
+Adds a floating window to user-specified pages for the purpose of easily converting between currencies. Uses [freecurrencyapi.com](https://freecurrencyapi.com/) for data.
 
 ---
 
