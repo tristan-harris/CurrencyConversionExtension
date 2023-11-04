@@ -20,7 +20,9 @@ Adds a floating window specified pages to easily convert between currencies. Use
 Pin the extention, then click on it when you want the popup appear for a specific website. The extension will remember which websites you enabled the extension for.
 
 ![example-screenshot](https://github.com/tristan-harris/CurrencyConversionExtension/assets/53396419/a4c6fe35-f02a-4930-b491-f31e34a64e01)
+
 Example screenshot
+
 ---
 
 ### Icon Credits
