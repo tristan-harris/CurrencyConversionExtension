@@ -1,6 +1,10 @@
+:root {
+    --popup-header-background-color: rgb(126, 209, 112);
+}
+
 /* resets css to default state (ignoring specific page css) */
-div.cce-popup-div * {
-    all: initial !important;
+div.cce-popup-div {
+    /* all: initial !important; */
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -12,33 +16,90 @@ div.cce-popup-div {
     float: right;
     position: fixed;
     z-index: 99999;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
-    padding: 24px;
-    top: calc(80%);
-    right: calc(1%);
+    /* padding: 10px; */
+    top: calc(83%);
+    right: calc(0.5%);
+}
+
+div.cce-popup-div h1 {
+    margin: 0px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+div.cce-popup-div {
+    /* background-color: var(--popup-header-background-color); */
+}
+
+
+div.cce-popup-div > div {
+    width: 100% !important;
+}
+
+div.cce-header-popup-div {
+    text-align: center !important;
+    background-color: var(--popup-header-background-color);
+    margin-bottom: 5px;
+}
+
+div.cce-header-popup-div > h1 {
     text-align: center !important;
 }
 
 img#cce-swap-currencies-arrow {
     width: 32px !important;
     height: 32px !important;
+    /* margin-bottom: 15px !important; */
+    cursor: pointer;
 }
 
-div.cce-popup-div > div {
+div.cce-main-popup-div {
+    text-align: center;
+}
+
+div.cce-main-popup-div > div {
     display: inline-block !important;
-    border: 1px solid red !important;
+    /* border: 1px solid red !important; */
 }
 
-div.cce-popup-div > p {
+div.cce-main-popup-div > p {
     color: black !important;
     font-size: 12px !important;
 }
 
-div.cce-popup-div input, div.cce-popup-div select {
-    background-color: lightgray !important;
+div.cce-main-popup-div input, div.cce-main-popup-div select {
+    background-color: rgb(242, 242, 242) !important;
     border-style: solid !important;
-    border-color: #000000 !important;
-    border-width: 2px !important;
+    border-color: #8f8f8f !important;
+    border-width: 1px !important;
     margin: 5px !important;
+    color: rgb(0, 0, 0) !important;
+
+    width: 200px !important;
+    
+    padding: 3px !important;
+    
+    /* margin: 0px; */
+}
+
+div.cce-main-popup-div select option {
+    background-color: white !important;
+}
+ 
+div.cce-main-popup-div select {
+    height: 25px !important;
+    font-size: 12px !important;
+}
+
+div.cce-main-popup-div input {
+    height: 30px !important;
+    font-size: 20px !important;
+    /* padding: 5px !important; */
+}
+
+.cce-swap-currency-div {
+    height: 100% !important;
+    vertical-align: top !important;
 }

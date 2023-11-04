@@ -5,4 +5,9 @@
 
 #cce-buttons-div {
     margin-top: 5px;
+    text-align: center;
+}
+
+button:disabled {
+    color: gray;
 }
