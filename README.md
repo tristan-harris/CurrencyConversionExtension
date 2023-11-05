@@ -17,7 +17,7 @@ Adds a floating window to user-specified pages for the purpose of easily convert
 
 ### Usage
 
-Pin the extention, then click on it when you want the popup appear for a specific website. The extension will remember which websites you enabled the extension for.
+Pin the extention, then click on it when you want the popup appear for a specific website. The extension will keep track of which websites you enabled it for.
 
 ![example-screenshot](https://github.com/tristan-harris/CurrencyConversionExtension/assets/53396419/a4c6fe35-f02a-4930-b491-f31e34a64e01)
 
