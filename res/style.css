@@ -9,16 +9,14 @@ div.cce-popup-div {
 }
 
 div.cce-popup-div {
-    width:500px; 
+    width:500px;
     height:120px;
     background-color:#FFFFFF;
     border:1px #000000 solid;
     float: right;
     position: fixed;
     z-index: 99999;
-    /* border-radius: 10px; */
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15)) drop-shadow(0 1px 3px rgba(0, 0, 0, 0.3));
-    /* padding: 10px; */
     top: calc(83%);
     right: calc(0.5%);
 }
@@ -30,9 +28,7 @@ div.cce-popup-div h1 {
 }
 
 div.cce-popup-div {
-    /* background-color: var(--popup-header-background-color); */
 }
-
 
 div.cce-popup-div > div {
     width: 100% !important;
@@ -51,7 +47,6 @@ div.cce-header-popup-div > h1 {
 img#cce-swap-currencies-arrow {
     width: 32px !important;
     height: 32px !important;
-    /* margin-bottom: 15px !important; */
     cursor: pointer;
 }
 
@@ -61,7 +56,6 @@ div.cce-main-popup-div {
 
 div.cce-main-popup-div > div {
     display: inline-block !important;
-    /* border: 1px solid red !important; */
 }
 
 div.cce-main-popup-div > p {
@@ -78,16 +72,14 @@ div.cce-main-popup-div input, div.cce-main-popup-div select {
     color: rgb(0, 0, 0) !important;
 
     width: 200px !important;
-    
+
     padding: 3px !important;
-    
-    /* margin: 0px; */
 }
 
 div.cce-main-popup-div select option {
     background-color: white !important;
 }
- 
+
 div.cce-main-popup-div select {
     height: 25px !important;
     font-size: 12px !important;
@@ -96,7 +88,6 @@ div.cce-main-popup-div select {
 div.cce-main-popup-div input {
     height: 30px !important;
     font-size: 20px !important;
-    /* padding: 5px !important; */
 }
 
 .cce-swap-currency-div {
